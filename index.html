@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DR-ABDUL-LATIF</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <span><strong>ANNEXUS-EDUCATION(ABDUL-LATIF)-</strong><strong>PORTAL</strong></span>
+      <span><strong>03215344656</strong><strong>SARGODHA-42-S.B</strong></span>
+    </div>
+    <nav class="nav-tabs">
+      <button class="nav-btn active" data-tab="dashboard-view"><i class="fa-solid fa-house"></i> Dashboard</button>
+      <button class="nav-btn" data-tab="solutions-view"><i class="fa-solid fa-book-open"></i> Solutions Bank</button>
+      <button class="nav-btn" data-tab="editor-view"><i class="fa-solid fa-code"></i> JSON Editor</button>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <!-- VIEW 1: DASHBOARD (3-STEP SELECTION & QUIZ ENGINE) -->
+    <section id="dashboard-view" class="view-panel active">
+      
+      <!-- Breadcrumb Navigation Bar -->
+      <div id="breadcrumb-bar" class="breadcrumb-bar" style="display: none;">
+        <button id="btn-back-step" class="btn btn-secondary btn-sm"><i class="fa-solid fa-arrow-left"></i> Back</button>
+        <span id="breadcrumb-path" class="breadcrumb-path">Class > Subject</span>
+      </div>
+
+      <!-- STEP 1: CLASS SELECTION GRID -->
+      <div id="step-classes" class="step-container">
+        <h2 class="section-title"><i class="fa-solid fa-school"></i> Select Your Class</h2>
+        <div class="selection-grid">
+          <div class="selection-card" onclick="selectClass('9th')">
+            <i class="fa-solid fa-graduation-cap card-icon"></i>
+            <h3>9th Grade</h3>
+            <p>Secondary School Certificate Part-I</p>
+          </div>
+          <div class="selection-card" onclick="selectClass('10th')">
+            <i class="fa-solid fa-user-graduate card-icon"></i>
+            <h3>10th Grade</h3>
+            <p>Secondary School Certificate Part-II</p>
+          </div>
+          <div class="selection-card" onclick="selectClass('First Year')">
+            <i class="fa-solid fa-book-bookmark card-icon"></i>
+            <h3>1st Year</h3>
+            <p>Higher Secondary School Certificate Part-I</p>
+          </div>
+          <div class="selection-card" onclick="selectClass('Second Year')">
+            <i class="fa-solid fa-award card-icon"></i>
+            <h3>2nd Year</h3>
+            <p>Higher Secondary School Certificate Part-II</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 2: SUBJECT SELECTION GRID -->
+      <div id="step-subjects" class="step-container" style="display: none;">
+        <h2 class="section-title"><i class="fa-solid fa-book"></i> Select Subject</h2>
+        <div id="subjects-container" class="selection-grid">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- STEP 3: CHAPTER SELECTION GRID -->
+      <div id="step-chapters" class="step-container" style="display: none;">
+        <h2 class="section-title"><i class="fa-solid fa-list-check"></i> Select Chapter</h2>
+        <div id="chapters-container" class="selection-grid">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- STEP 4: QUIZ EXECUTION CARD -->
+      <div id="quiz-card" class="card quiz-card" style="display: none;">
+        <div class="quiz-header">
+          <span class="badge category-badge" id="quiz-category">Chapter</span>
+          <span class="q-counter" id="q-counter">Question 1 of 10</span>
+        </div>
+
+        <h2 class="question-text" id="quiz-question">Loading Question...</h2>
+
+        <div class="options-grid" id="options-container">
+          <!-- Options rendered via JS -->
+        </div>
+
+        <div class="quiz-footer">
+          <button class="btn btn-secondary" id="btn-prev"><i class="fa-solid fa-arrow-left"></i> Previous</button>
+          <button class="btn btn-primary" id="btn-next">Next <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- VIEW 2: SOLUTIONS BANK -->
+    <section id="solutions-view" class="view-panel">
+      <div class="card">
+        <h2><i class="fa-solid fa-book-open"></i> Answer Keys & Detailed Explanations</h2>
+        <p class="subtitle">Review solutions for all available classes, subjects, and chapters.</p>
+        <div class="solutions-list" id="solutions-container"></div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: LIVE JSON DATA EDITOR -->
+    <section id="editor-view" class="view-panel">
+      <div class="card">
+        <div class="editor-header">
+          <div>
+            <h2><i class="fa-solid fa-file-code"></i> Live JSON Data Management</h2>
+            <p class="subtitle">Edit class, subject, chapter, and question banks in real time.</p>
+          </div>
+          <button class="btn btn-success" id="btn-save-json"><i class="fa-solid fa-floppy-disk"></i> Apply Changes</button>
+        </div>
+        <textarea id="json-input" spellcheck="false"></textarea>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2299 @@
+{
+  "9th": {
+    "COMPUTER SCIENCE": {
+      
+
+      
+       "Chapter 1: COMPUTER SYSTEMS": [
+        {
+    "id": 1,
+    "question": "What computing machine was capable of taking input from punch cards and storing data in memory?",
+    "options": {
+      "A": "Abacus",
+      "B": "Analytical Engine",
+      "C": "Tabulating Machine",
+      "D": "Differential Analyzer"
+    },
+    "answer": "B",
+    "explanation": "Charles Babbage's Analytical Engine was designed as a general-purpose mechanical computer that accepted input via punch cards and included a memory unit (the store)[cite: 10]."
+  },
+  {
+    "id": 2,
+    "question": "What technology replaced vacuum tubes in second-generation computers?",
+    "options": {
+      "A": "Transistors",
+      "B": "Integrated Circuits (ICs)",
+      "C": "Microprocessors",
+      "D": "Magnetic tapes"
+    },
+    "answer": "A",
+    "explanation": "Second-generation computers replaced bulky, heat-generating vacuum tubes with smaller, faster, and more reliable transistors[cite: 10]."
+  },
+  {
+    "id": 3,
+    "question": "Which computer generation introduced the use of Integrated Circuits (ICs)?",
+    "options": {
+      "A": "First Generation",
+      "B": "Second Generation",
+      "C": "Third Generation",
+      "D": "Fourth Generation"
+    },
+    "answer": "C",
+    "explanation": "Integrated Circuits (ICs), combining multiple transistors on a single silicon chip, were introduced in third-generation computers[cite: 10]."
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is an example of a natural system?",
+    "options": {
+      "A": "Telephone network",
+      "B": "Human body",
+      "C": "Database",
+      "D": "Automobile"
+    },
+    "answer": "B",
+    "explanation": "The human body is a complex biological system created by nature, unlike man-made mechanical or artificial systems[cite: 10]."
+  },
+  {
+    "id": 5,
+    "question": "Which component of the microprocessor controls the working of input/output devices and storage devices?",
+    "options": {
+      "A": "Arithmetic Logic Unit (ALU)",
+      "B": "Control Unit (CU)",
+      "C": "Memory Address Register (MAR)",
+      "D": "Data Register (DR)"
+    },
+    "answer": "B",
+    "explanation": "The Control Unit (CU) manages and coordinates all operations and timing signals across system hardware, including I/O and storage units[cite: 10]."
+  },
+  {
+    "id": 6,
+    "question": "Which type of memory retains data even when the computer is turned off?",
+    "options": {
+      "A": "RAM",
+      "B": "ROM",
+      "C": "Cache",
+      "D": "Register"
+    },
+    "answer": "B",
+    "explanation": "Read-Only Memory (ROM) is non-volatile, meaning it maintains stored instructions permanently regardless of power state[cite: 10]."
+  },
+  {
+    "id": 7,
+    "question": "What is the main purpose of Cache memory?",
+    "options": {
+      "A": "Store program instructions",
+      "B": "Provide high-speed storage",
+      "C": "Control input/output devices",
+      "D": "Perform arithmetic operations"
+    },
+    "answer": "B",
+    "explanation": "Cache memory provides ultra-fast temporary storage close to the CPU to reduce memory access latency for frequently used data[cite: 10]."
+  },
+  {
+    "id": 8,
+    "question": "What is the smallest unit of memory in a digital computer?",
+    "options": {
+      "A": "Kilobyte",
+      "B": "Bit",
+      "C": "Byte",
+      "D": "Megabyte"
+    },
+    "answer": "B",
+    "explanation": "A binary digit (bit) represents either a 0 or a 1 and is the fundamental, smallest unit of digital memory[cite: 10]."
+  },
+  {
+    "id": 9,
+    "question": "Which memory type uses laser beams to read and write data?",
+    "options": {
+      "A": "RAM",
+      "B": "Optical memory",
+      "C": "Cache memory",
+      "D": "ROM"
+    },
+    "answer": "B",
+    "explanation": "Optical memory storage media (such as CDs, DVDs, and Blu-ray discs) rely on laser diodes to read and write microscopic pits on reflective discs[cite: 10]."
+  },
+  {
+    "id": 10,
+    "question": "In Von Neumann architecture, where are instruction data and program data stored?",
+    "options": {
+      "A": "In separate memory units",
+      "B": "In the same memory unit",
+      "C": "In the processor's registers",
+      "D": "In the cache memory"
+    },
+    "answer": "B",
+    "explanation": "A defining principle of Von Neumann architecture is the stored-program concept, where both program instructions and data share the same physical memory space[cite: 9]."
+  },
+  {
+    "id": 11,
+    "question": "What is the primary function of the buses in a computer's memory system?",
+    "options": {
+      "A": "Control memory operations",
+      "B": "Display graphics",
+      "C": "Transmit data between components",
+      "D": "Perform arithmetic operations"
+    },
+    "answer": "C",
+    "explanation": "Buses consist of parallel conductive electrical pathways used to transfer electrical signals, addresses, and data between different hardware components[cite: 9]."
+  },
+  {
+    "id": 12,
+    "question": "What is the primary function of the Presentation Layer in the OSI model?",
+    "options": {
+      "A": "Establishing connections between computers",
+      "B": "Converting data into a standard format",
+      "C": "Deciding the physical path of data",
+      "D": "Sending data in both directions simultaneously"
+    },
+    "answer": "B",
+    "explanation": "Layer 6 (Presentation Layer) handles data formatting, syntax translation, compression, and encryption to ensure applications understand incoming data[cite: 9]."
+  },
+  {
+    "id": 13,
+    "question": "In which network topology is data transmission unidirectional, like radio or television broadcasts?",
+    "options": {
+      "A": "Star Topology",
+      "B": "Bus Topology",
+      "C": "Mesh Topology",
+      "D": "Ring Topology"
+    },
+    "answer": "B",
+    "explanation": "Bus topology sends signals along a single continuous bus cable in a shared line, functioning broadcast-style like radio networks[cite: 9]."
+  },
+  {
+    "id": 14,
+    "question": "Which data communication standard is used for transferring web pages and related data on the World Wide Web?",
+    "options": {
+      "A": "TCP/IP",
+      "B": "HTTP",
+      "C": "FTP",
+      "D": "SMTP"
+    },
+    "answer": "B",
+    "explanation": "Hypertext Transfer Protocol (HTTP) is the application protocol specifically designed for transmitting HTML documents and assets across the web[cite: 9]."
+  },
+  {
+    "id": 15,
+    "question": "Which network architecture requires each computer to act as either a server or a client but not both simultaneously?",
+    "options": {
+      "A": "Client/Server Network",
+      "B": "Peer-to-Peer Network",
+      "C": "Metropolitan Area Network (MAN)",
+      "D": "Wide Area Network (WAN)"
+    },
+    "answer": "A",
+    "explanation": "In dedicated Client/Server networks, role assignments are distinct: centralized servers respond to requests, and clients send requests without acting as servers[cite: 9]."
+  }
+        
+  
+        
+],
+  
+
+
+"Chapter 2: COMPUTATIONAL THINKING AND ALGORITHMS": [
+  
+{
+    "id": 1,
+    "question": "For a problem, we face in real world situations. In what sequence we follow the steps.\nI. make some solution.\nII. understand the real-world problem.\nIII. instruct the computer to behave accordingly.",
+    "options": {
+      "A": "I, II, III",
+      "B": "I, III, II",
+      "C": "II, I, III",
+      "D": "II, III, I"
+    },
+    "answer": "C",
+    "explanation": "Problem solving follows a logical sequence: first understand the real-world problem (II), develop a solution logic (I), and then program or instruct the computer accordingly (III)[cite: 11]."
+  },
+  {
+    "id": 2,
+    "question": "Following are types of computing problems\nI. Counting Problems\nII. Search Problems\nIII. Decision Problem",
+    "options": {
+      "A": "I and II",
+      "B": "I and III",
+      "C": "II and III",
+      "D": "I and II and III"
+    },
+    "answer": "D",
+    "explanation": "Counting problems, search problems, and decision problems are all fundamental classifications of computational problems[cite: 11]."
+  },
+  {
+    "id": 3,
+    "question": "Computational thinking is",
+    "options": {
+      "A": "Programming",
+      "B": "Thinking like a computer",
+      "C": "Coding",
+      "D": "Logically solving problems"
+    },
+    "answer": "D",
+    "explanation": "Computational thinking is a structured problem-solving approach that involves analyzing problems and formulating logical solutions that can be carried out by humans or computers[cite: 11]."
+  },
+  {
+    "id": 4,
+    "question": "To solve Search problems, we need to",
+    "options": {
+      "A": "Provide the moves.",
+      "B": "Provide start state.",
+      "C": "Provide the end state.",
+      "D": "a, b and c"
+    },
+    "answer": "D",
+    "explanation": "State-space search problem formulations require specifying the initial start state, permissible actions/moves, and the target goal/end state[cite: 11]."
+  },
+  {
+    "id": 5,
+    "question": "The eight queens puzzle is the problem of",
+    "options": {
+      "A": "Sorting",
+      "B": "Searching",
+      "C": "Counting",
+      "D": "Both a and b"
+    },
+    "answer": "B",
+    "explanation": "The 8-Queens puzzle is a classic constraint satisfaction search problem where the algorithm searches for a valid board configuration[cite: 11]."
+  },
+  {
+    "id": 6,
+    "question": "Finding the location of the element with a given value is",
+    "options": {
+      "A": "Search",
+      "B": "Traversal",
+      "C": "Sort",
+      "D": "None of above"
+    },
+    "answer": "A",
+    "explanation": "Searching is the algorithmic operation of retrieving the position or index of a specified target key within a dataset[cite: 11]."
+  },
+  {
+    "id": 7,
+    "question": "In IPO Charts, we have",
+    "options": {
+      "A": "Input, Plan, Output",
+      "B": "Input, Program, Output",
+      "C": "Input, Process, Output",
+      "D": "Input, Proceed, Output"
+    },
+    "answer": "C",
+    "explanation": "An IPO chart stands for Input-Process-Output, detailing incoming data, the operations performed on it, and the resulting outputs[cite: 11]."
+  }
+
+
+
+
+  
+],
+
+      "Chapter 3: PROGRAMMING FUNDAMENTALS": [
+        
+        {
+    "id": 1,
+    "question": "Everything in HTML is identified on the basis of ________.",
+    "options": {
+      "A": "Brackets",
+      "B": "Title",
+      "C": "Tags",
+      "D": "Image"
+    },
+    "answer": "C",
+    "explanation": "HTML utilizes tags enclosed in angle brackets to define, structure, and identify elements across a web document[cite: 12]."
+  },
+  {
+    "id": 2,
+    "question": "The output of HTML code is visible in ________.",
+    "options": {
+      "A": "Notepad",
+      "B": "File",
+      "C": "Browser",
+      "D": "Spreadsheet"
+    },
+    "answer": "C",
+    "explanation": "Web browsers parse HTML markup and render the visual interface and content onto the screen[cite: 12]."
+  },
+  {
+    "id": 3,
+    "question": "Name of a web page can be given using ________ tag.",
+    "options": {
+      "A": "Body",
+      "B": "Title",
+      "C": "Head",
+      "D": "Footer"
+    },
+    "answer": "B",
+    "explanation": "The <title> tag nested inside <head> specifies the title displayed on the browser tab or window title bar[cite: 12]."
+  },
+  {
+    "id": 4,
+    "question": "Main parts of a document are arranged in ________ tag.",
+    "options": {
+      "A": "Head",
+      "B": "Title",
+      "C": "Body",
+      "D": "Line Break"
+    },
+    "answer": "C",
+    "explanation": "The <body> tag holds all visible elements and main structural content of an HTML document[cite: 12]."
+  },
+  {
+    "id": 5,
+    "question": "The heading tag-pair for 5th level heading is ________.",
+    "options": {
+      "A": "<h5 .. h5>",
+      "B": "<h5 .. /h5>",
+      "C": "h5> .. </h5",
+      "D": "<h5> .. </h5>"
+    },
+    "answer": "D",
+    "explanation": "Heading level 5 is defined using the paired opening <h5> and closing </h5> tags[cite: 12]."
+  },
+  {
+    "id": 6,
+    "question": "Span is used to provide ________ to a line.",
+    "options": {
+      "A": "Font",
+      "B": "Border",
+      "C": "Style",
+      "D": "Color"
+    },
+    "answer": "C",
+    "explanation": "The inline <span> element is primarily used to apply inline CSS styles or target specific inline text sections[cite: 12]."
+  },
+  {
+    "id": 7,
+    "question": "First row of table in HTML is called ________.",
+    "options": {
+      "A": "Title row",
+      "B": "Top Row",
+      "C": "Header Row",
+      "D": "Upper Row"
+    },
+    "answer": "C",
+    "explanation": "The top row containing column labels in an HTML table is designated as the Header Row (typically defined using <th> elements)[cite: 12, 13]."
+  },
+  {
+    "id": 8,
+    "question": "p' tag-pair is used for ________.",
+    "options": {
+      "A": "Print",
+      "B": "Page align",
+      "C": "Page break",
+      "D": "Paragraph"
+    },
+    "answer": "D",
+    "explanation": "The <p> tag pair defines a paragraph block of text in HTML[cite: 13]."
+  },
+  {
+    "id": 9,
+    "question": "A variable cannot start with a ________.",
+    "options": {
+      "A": "Alphabet",
+      "B": "Number",
+      "C": "Character",
+      "D": "String"
+    },
+    "answer": "B",
+    "explanation": "In programming languages like JavaScript, variable identifiers must begin with a letter, underscore (_), or dollar sign ($), and cannot begin with a numeric digit[cite: 13]."
+  },
+  {
+    "id": 10,
+    "question": "The first value assigned to a variable after declaration is called ________.",
+    "options": {
+      "A": "Beginning value",
+      "B": "Starting value",
+      "C": "Initialization",
+      "D": "Substitution"
+    },
+    "answer": "C",
+    "explanation": "Assigning an initial value to a variable at or right after its creation is called initialization[cite: 13]."
+  }
+
+
+
+
+
+        
+      ],
+
+
+      "Chapter 4: DATA SCIENCE AND MACHINE LEARNING": [
+
+
+        {
+    "id": 1,
+    "question": "________ is a structured or processed collection of data usually associated with a unique body of work.",
+    "options": {
+      "A": "Database",
+      "B": "Dataset",
+      "C": "Data and Information",
+      "D": "Information"
+    },
+    "answer": "B",
+    "explanation": "A dataset is a structured collection of related data corresponding to a specific body of work or topic[cite: 14]."
+  },
+  {
+    "id": 2,
+    "question": "________ refers to the process of carefully examining and studying data to identify patterns, draw conclusions, or make the data meaningful.",
+    "options": {
+      "A": "Data analytics",
+      "B": "Data Predictions",
+      "C": "Dataset",
+      "D": "Database"
+    },
+    "answer": "A",
+    "explanation": "Data analytics involves examining raw data to uncover patterns, extract insights, and reach meaningful conclusions[cite: 14]."
+  },
+  {
+    "id": 3,
+    "question": "________ is the graphical representation of data through use of common charts, plots, infographics, and animations.",
+    "options": {
+      "A": "Data cleaning",
+      "B": "Missing values",
+      "C": "Data visualization",
+      "D": "Data hiding"
+    },
+    "answer": "C",
+    "explanation": "Data visualization converts data sets into graphical elements like charts, plots, and infographics for easy visual interpretation[cite: 14]."
+  },
+  {
+    "id": 4,
+    "question": "________ is subset of Machine learning, with emphasis on the simulation or imitation of human brain's behavior by using artificial neural networks.",
+    "options": {
+      "A": "Data visualization",
+      "B": "Computer vision",
+      "C": "Deep learning",
+      "D": "Big Data"
+    },
+    "answer": "C",
+    "explanation": "Deep learning is a subset of machine learning that utilizes multi-layered artificial neural networks modeled after human brain structures[cite: 14]."
+  },
+  {
+    "id": 5,
+    "question": "________ is the use of data to predict future trends and events based historical data.",
+    "options": {
+      "A": "Statistical analysis",
+      "B": "Predictive analysis",
+      "C": "Graphical analysis",
+      "D": "Deep learning"
+    },
+    "answer": "B",
+    "explanation": "Predictive analysis applies statistical techniques and machine learning algorithms to historical data to forecast future outcomes and trends[cite: 14]."
+  },
+  {
+    "id": 6,
+    "question": "________ is the fast rate at which data is received and acted on.",
+    "options": {
+      "A": "Volume",
+      "B": "Velocity",
+      "C": "Variety",
+      "D": "Vision"
+    },
+    "answer": "B",
+    "explanation": "Velocity in Big Data refers to the high speed at which data is generated, processed, and analyzed[cite: 15]."
+  },
+  {
+    "id": 7,
+    "question": "________ includes the data which can only take certain values and cannot be further subdivided into smaller units.",
+    "options": {
+      "A": "Discrete data",
+      "B": "Continuous data",
+      "C": "Ordinal data",
+      "D": "Referral data"
+    },
+    "answer": "A",
+    "explanation": "Discrete data consists of distinct, countable values that cannot be broken down into finer fractional components[cite: 15]."
+  },
+  {
+    "id": 8,
+    "question": "________ is limitation of big data.",
+    "options": {
+      "A": "Statistical data",
+      "B": "Unlimited growth of data",
+      "C": "Data visualization",
+      "D": "Predictive maintenance"
+    },
+    "answer": "B",
+    "explanation": "The exponential and unlimited growth of data poses severe challenges for storage capacity, security, and computational processing[cite: 15]."
+  },
+  {
+    "id": 9,
+    "question": "Customer satisfaction level such as satisfied, dissatisfied, and neutral are examples of ________ data type.",
+    "options": {
+      "A": "Ordinal data",
+      "B": "Continuous data",
+      "C": "Numeric data",
+      "D": "Discrete data"
+    },
+    "answer": "A",
+    "explanation": "Ordinal data represents categorical items that follow a clear natural order or rank scale (such as satisfied > neutral > dissatisfied)[cite: 15]."
+  },
+  {
+    "id": 10,
+    "question": "________ is a method of collecting information from individuals.",
+    "options": {
+      "A": "Survey",
+      "B": "Data hiding",
+      "C": "Data visualization",
+      "D": "Data finding"
+    },
+    "answer": "A",
+    "explanation": "Surveys gather data directly from individuals through structured questionnaires or targeted interviews[cite: 15]."
+  }
+  
+        
+],
+
+
+      "Chapter 5: APPLICATION OF COMPUTER SCIENCE": [
+
+        {
+    "id": 1,
+    "question": "The process of taking a known data set as input to train the algorithm to create a model for prediction is known as:",
+    "options": {
+      "A": "Natural Language Processing",
+      "B": "Expert system",
+      "C": "Supervised Machine Learning",
+      "D": "Unsupervised Machine Learning"
+    },
+    "answer": "C",
+    "explanation": "Supervised Machine Learning uses labeled historical data sets to train algorithms to make accurate predictions on new data[cite: 16]."
+  },
+  {
+    "id": 2,
+    "question": "The AI technology that enables computer systems to obtain meaningful information from digital images or videos is called:",
+    "options": {
+      "A": "Image Recognition",
+      "B": "Speech Recognition",
+      "C": "Scanner",
+      "D": "Computer Vision"
+    },
+    "answer": "D",
+    "explanation": "Computer Vision is the field of AI dedicated to extracting visual details, understanding, and making inferences from digital images and video streams[cite: 16]."
+  },
+  {
+    "id": 3,
+    "question": "Instant answers to website visitors' questions through text or voice interaction are provided by:",
+    "options": {
+      "A": "Robot",
+      "B": "Chatbot",
+      "C": "Cloud Computing",
+      "D": "Expert System"
+    },
+    "answer": "B",
+    "explanation": "Chatbots deliver real-time, automated conversational responses to users on websites via text or voice interfaces[cite: 16]."
+  },
+  {
+    "id": 4,
+    "question": "Cloud computing model in which resources are owned by and used inside a single organization is called:",
+    "options": {
+      "A": "Private Cloud",
+      "B": "Public Cloud",
+      "C": "Hybrid Cloud",
+      "D": "Remote Cloud"
+    },
+    "answer": "A",
+    "explanation": "A Private Cloud is a dedicated cloud infrastructure exclusively provisioned, owned, and operated for a single organization[cite: 16]."
+  },
+  {
+    "id": 5,
+    "question": "The AI tool used for correcting spelling and grammar mistakes is:",
+    "options": {
+      "A": "ChatGPT",
+      "B": "Lovo ai",
+      "C": "Grammarly",
+      "D": "Virtual Assistant"
+    },
+    "answer": "C",
+    "explanation": "Grammarly uses natural language processing and machine learning algorithms to detect and correct spelling, punctuation, and grammatical errors[cite: 16]."
+  },
+  {
+    "id": 6,
+    "question": "Virtual assistant that belongs to Apple Inc. is:",
+    "options": {
+      "A": "Siri",
+      "B": "Alexa",
+      "C": "Google Assistant",
+      "D": "Cortana"
+    },
+    "answer": "A",
+    "explanation": "Siri is the built-in, voice-controlled virtual assistant developed by Apple Inc.[cite: 16]"
+  },
+  {
+    "id": 7,
+    "question": "The AI tool that converts text to speech is:",
+    "options": {
+      "A": "ChatGPT",
+      "B": "Grammarly",
+      "C": "Alexa",
+      "D": "Lovo ai"
+    },
+    "answer": "D",
+    "explanation": "Lovo.ai is a dedicated AI voice generator and text-to-speech tool designed to create human-like voiceovers[cite: 16]."
+  },
+  {
+    "id": 8,
+    "question": "The technology used in self-driving cars is called:",
+    "options": {
+      "A": "Natural Language Processing",
+      "B": "Chatbot",
+      "C": "Computer Vision",
+      "D": "Virtual Assistant"
+    },
+    "answer": "C",
+    "explanation": "Self-driving vehicles rely primarily on Computer Vision through cameras and sensors to detect lanes, obstacles, signals, and pedestrian movements[cite: 16]."
+  },
+  {
+    "id": 9,
+    "question": "The technology concerned with training the computer to understand spoken and written words and to take action is known as:",
+    "options": {
+      "A": "Virtual Assistant",
+      "B": "Natural Language Processing",
+      "C": "Language analysis",
+      "D": "Virtual training"
+    },
+    "answer": "B",
+    "explanation": "Natural Language Processing (NLP) is the subfield of computer science and AI focusing on enabling computers to analyze, interpret, and process human language[cite: 17]."
+  },
+  {
+    "id": 10,
+    "question": "The technology concerned with performing specific tasks with little or no human intervention using computer controlled machine is called:",
+    "options": {
+      "A": "Computer vision",
+      "B": "Computer intelligence",
+      "C": "Robotics",
+      "D": "Virtual technology"
+    },
+    "answer": "C",
+    "explanation": "Robotics involves designing, building, and operating physical or mechanical systems that execute tasks autonomously or semi-autonomously[cite: 17]."
+  }
+
+  
+        
+],
+
+
+      "Chapter 6: IMPACTS OF COMPUTING": [
+
+        {
+    "id": 1,
+    "question": "What does responsible use of hardware entail?",
+    "options": {
+      "A": "Using outdated software",
+      "B": "Treating computer equipment with care and respect",
+      "C": "Ignoring software updates",
+      "D": "Sharing passwords with friends"
+    },
+    "answer": "B",
+    "explanation": "Responsible hardware usage involves handling, maintaining, and protecting physical computing equipment properly to avoid damage[cite: 18]."
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is an example of appropriate use of software?",
+    "options": {
+      "A": "Downloading and using cracked software",
+      "B": "Regularly updating software to the latest version",
+      "C": "Sharing software licenses with multiple users",
+      "D": "Disabling antivirus software for faster performance"
+    },
+    "answer": "B",
+    "explanation": "Regular software updates fix security vulnerabilities and ensure optimal system functionality and performance[cite: 18]."
+  },
+  {
+    "id": 3,
+    "question": "Safe use of digital platforms includes:",
+    "options": {
+      "A": "Sharing personal information with anyone online",
+      "B": "Using strong, unique passwords for each online account",
+      "C": "Downloading files from unknown sources without scanning for malware",
+      "D": "Accepting friend requests from strangers without verifying their identity"
+    },
+    "answer": "B",
+    "explanation": "Constructing unique, robust passwords for every individual account prevents credential stuffing attacks and unauthorized access[cite: 18]."
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is an example of inappropriate software use?",
+    "options": {
+      "A": "Using licensed software for personal projects",
+      "B": "Respecting software copyrights and licenses",
+      "C": "Modifying software code without permission from the developer",
+      "D": "Updating software regularly to improve its performance"
+    },
+    "answer": "C",
+    "explanation": "Altering proprietary software code without developer authorization violates intellectual property rights and software license agreements[cite: 18]."
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is a potential harmful effect of social networking?",
+    "options": {
+      "A": "Promoting social awareness and activism",
+      "B": "Facilitating cyberbullying and harassment",
+      "C": "Fostering offline community engagement",
+      "D": "Enhancing critical thinking skills"
+    },
+    "answer": "B",
+    "explanation": "Social media platforms can unfortunately serve as channels for online harassment, cyberbullying, and digital abuse[cite: 18]."
+  },
+  {
+    "id": 6,
+    "question": "How can fake news be harmful in the context of computing innovations?",
+    "options": {
+      "A": "It encourages fact-checking and critical thinking.",
+      "B": "It can manipulate public opinion and spread misinformation.",
+      "C": "It fosters trust in credible news sources.",
+      "D": "It has no impact on society."
+    },
+    "answer": "B",
+    "explanation": "Misinformation spreads rapidly across digital networks, leading to public manipulation, confusion, and distorted societal perspectives[cite: 18]."
+  },
+  {
+    "id": 7,
+    "question": "In what way can social networking platforms positively impact businesses and entrepreneurs?",
+    "options": {
+      "A": "By decreasing the reach and visibility of businesses",
+      "B": "By limiting customer engagement and feedback",
+      "C": "By providing a platform for marketing, customer engagement, and networking",
+      "D": "By increasing operational costs and inefficiencies"
+    },
+    "answer": "C",
+    "explanation": "Social networks empower businesses to directly engage audiences, execute targeted marketing, and build professional networks globally[cite: 19]."
+  },
+  {
+    "id": 8,
+    "question": "What is one potential beneficial effect of social networking platforms?",
+    "options": {
+      "A": "Enhanced personal privacy",
+      "B": "Improved offline communication skills",
+      "C": "Increased connectivity and networking opportunities",
+      "D": "Reduced exposure to diverse viewpoints"
+    },
+    "answer": "C",
+    "explanation": "Social networks bridge geographic gaps, expanding personal and professional communication channels and community opportunities[cite: 19]."
+  },
+  {
+    "id": 9,
+    "question": "What is an ethical concern related to computing?",
+    "options": {
+      "A": "Increased accessibility to information",
+      "B": "Enhanced cybersecurity measures",
+      "C": "Privacy breaches and data misuse",
+      "D": "Improved healthcare through telemedicine"
+    },
+    "answer": "C",
+    "explanation": "Unauthorized data collection, personal privacy invasions, and corporate data misuse are major ethical challenges in modern computing[cite: 19]."
+  },
+  {
+    "id": 10,
+    "question": "What is a cultural impact of computing?",
+    "options": {
+      "A": "Preservation of traditional cultural practices and customs.",
+      "B": "Homogenization of global culture with a single dominant culture.",
+      "C": "Elimination of the need for cultural preservation efforts.",
+      "D": "Reduced cultural diversity and innovation."
+    },
+    "answer": "B",
+    "explanation": "Global mass media and digital platforms can blend local traditions into a unified, dominant globalized culture[cite: 19]."
+  },
+  {
+    "id": 11,
+    "question": "How does computing contribute to economic practices?",
+    "options": {
+      "A": "It increases manual labor jobs.",
+      "B": "It has no impact on job markets.",
+      "C": "It automates tasks, leading to job displacement but also creating new job opportunities.",
+      "D": "It primarily benefits large corporations, neglecting small businesses."
+    },
+    "answer": "C",
+    "explanation": "Automation shifts labor dynamics by replacing manual routine roles while opening up specialized technological employment opportunities[cite: 19]."
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is a personal benefit of computing in healthcare?",
+    "options": {
+      "A": "Reduced access to medical information",
+      "B": "Increased medical errors",
+      "C": "Improved telemedicine and healthcare accessibility",
+      "D": "Lower healthcare costs"
+    },
+    "answer": "C",
+    "explanation": "Digital health portals and telemedicine allow patients to access expert medical advice remotely with greater ease and speed[cite: 19]."
+  }
+
+ 
+],
+
+ "Chapter 07: DIGITAL LITRACY": [
+
+  {
+    "id": 1,
+    "question": "Which are the function of an entrepreneur?",
+    "options": {
+      "A": "Risk bearing",
+      "B": "Innovation",
+      "C": "Organizing and managing",
+      "D": "a, b, c"
+    },
+    "answer": "D",
+    "explanation": "Entrepreneurs handle multiple core functions including taking calculated risks, introducing innovations, and managing operational business structures[cite: 20]."
+  },
+  {
+    "id": 2,
+    "question": "An entrepreneur enters in to business to improved quality product by their invention and discoveries comes under",
+    "options": {
+      "A": "Technical entrepreneur",
+      "B": "Professional entrepreneur",
+      "C": "Novice Entrepreneur",
+      "D": "a, b, c"
+    },
+    "answer": "A",
+    "explanation": "Technical entrepreneurs leverage engineering, scientific inventions, and technical expertise to develop and improve commercial products[cite: 20]."
+  },
+  {
+    "id": 3,
+    "question": "An entrepreneur who introduce new idea, methods of production and discovers new market is called as",
+    "options": {
+      "A": "Technical entrepreneur",
+      "B": "Innovative Entrepreneur",
+      "C": "Novice Entrepreneur",
+      "D": "a, b, c"
+    },
+    "answer": "B",
+    "explanation": "Innovative entrepreneurs focus directly on introducing novel concepts, pioneering manufacturing processes, and opening up unexplored target markets[cite: 20]."
+  },
+  {
+    "id": 4,
+    "question": "Entrepreneurship can................... the Gross National Product",
+    "options": {
+      "A": "Increase",
+      "B": "Decrease",
+      "C": "Neither increase nor decrease",
+      "D": "None of a, b, c"
+    },
+    "answer": "A",
+    "explanation": "Entrepreneurship creates new goods, services, and commercial value, driving overall economic production and boosting national output (GNP)[cite: 20]."
+  },
+  {
+    "id": 5,
+    "question": "Entrepreneurship can .................... the Unemployment",
+    "options": {
+      "A": "Increase",
+      "B": "Neither increase nor decrease",
+      "C": "Decrease",
+      "D": "a, b, c"
+    },
+    "answer": "C",
+    "explanation": "By founding new enterprises and expanding job opportunities, entrepreneurship directly reduces national unemployment levels[cite: 20]."
+  },
+  {
+    "id": 6,
+    "question": "A stable and dynamic political environment play",
+    "options": {
+      "A": "Positive role in business growth",
+      "B": "Negative role in business growth",
+      "C": "No role in business growth",
+      "D": "None of a, b, c"
+    },
+    "answer": "A",
+    "explanation": "Political stability fosters consumer confidence, protects legal rights, and encourages business investment and sustainable economic growth[cite: 20]."
+  },
+  {
+    "id": 7,
+    "question": "A business plan is a written summary of:",
+    "options": {
+      "A": "Proposed business venture",
+      "B": "Its operational and financial details",
+      "C": "Its marketing opportunities and strategy",
+      "D": "a, b, c"
+    },
+    "answer": "D",
+    "explanation": "A business plan comprehensively covers the proposed venture concept, target marketing strategy, operational roadmap, and financial projections[cite: 20]."
+  }
+
+
+  
+]
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },
+    "Mathematics": {
+      "Chapter 1: Matrices and Determinants": [
+        {
+          "id": 103,
+          "question": "What is a matrix with a single row called?",
+          "options": {
+            "A": "Column Matrix",
+            "B": "Row Matrix",
+            "C": "Square Matrix",
+            "D": "Null Matrix"
+          },
+          "answer": "B",
+          "explanation": "A matrix having only one row is called a row matrix."
+        }
+      ]
+    }
+  },
+  "10th": {
+
+
+    "Computer Science": {
+      "Chapter 1: COMPUTER SYSTEMS": [
+
+  
+        
+],
+  
+
+
+"Chapter 2: COMPUTATIONAL THINKING AND ALGORITHMS": [
+  
+  
+],
+
+
+
+
+
+
+
+
+      "Chapter 3: PROGRAMMING FUNDAMENTALS": [
+        
+        
+      ],
+
+
+      "Chapter 4: DATA SCIENCE AND MACHINE LEARNING": [
+  
+      ],
+
+
+      "Chapter 5: APPLICATION OF COMPUTER SCIENCE": [
+
+  
+        
+        
+],
+
+
+      "Chapter 6: IMPACTS OF COMPUTING": [
+
+ 
+        
+],
+
+ "Chapter 07: DIGITAL LITRACY": [
+
+ 
+  
+],
+
+ "Chapter 08: ENTERPRENEURSHIP IN DIGITAL AGE": [
+
+  
+
+]
+
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+  },
+  
+
+
+
+
+
+
+"First Year": {
+    "Computer Science": {
+
+
+
+
+       "Chapter 1: COMPUTER SYSTEMS": [
+        
+  {
+    "id": 201,
+    "question": "What are the two fundamental digits used in binary code?",
+    "options": {
+      "A": "0 and 2",
+      "B": "1 and 3",
+      "C": "0 and 1",
+      "D": "A and B"
+    },
+    "answer": "C",
+    "explanation": "Binary code is a base-2 numerical system that uses only two digits: 0 and 1."
+  },
+  {
+    "id": 202,
+    "question": "How many bits does the ASCII code use to represent a character?",
+    "options": {
+      "A": "8 bits",
+      "B": "16 bits",
+      "C": "32 bits",
+      "D": "64 bits"
+    },
+    "answer": "A",
+    "explanation": "Standard ASCII uses 7 bits extended to 1 byte (8 bits) to represent single characters."
+  },
+  {
+    "id": 203,
+    "question": "In a digital computer, what do logic levels '0' and '1' represent in terms of voltage?",
+    "options": {
+      "A": "0V for '0' and 5V for '1'",
+      "B": "0V for '1' and 5V for '0'",
+      "C": "0V for both '0' and '1'",
+      "D": "5V for both '0' and '1'"
+    },
+    "answer": "A",
+    "explanation": "In standard TTL digital circuits, LOW logic '0' is represented by 0V and HIGH logic '1' is represented by ~5V."
+  },
+  {
+    "id": 204,
+    "question": "Which of the following logic gates produces a HIGH (1) output only when all of its inputs are HIGH (1)?",
+    "options": {
+      "A": "AND gate",
+      "B": "OR gate",
+      "C": "NOT gate",
+      "D": "XOR gate"
+    },
+    "answer": "A",
+    "explanation": "An AND gate requires all inputs to be HIGH (1) to output HIGH (1)."
+  },
+  {
+    "id": 205,
+    "question": "Which principle in Boolean algebra involves interchanging AND and OR operators while complementing variables?",
+    "options": {
+      "A": "Absorption Law",
+      "B": "Identity Law",
+      "C": "Principle of Duality",
+      "D": "Distributive Law"
+    },
+    "answer": "C",
+    "explanation": "The Principle of Duality states that a Boolean relation remains valid when AND and OR operators are swapped along with identity elements."
+  },
+  {
+    "id": 206,
+    "question": "Which principle of Boolean algebra allows interchanging the AND and OR operators while negating the variables?",
+    "options": {
+      "A": "Complement principle",
+      "B": "Dual principle",
+      "C": "Inversion principle",
+      "D": "Identity principle"
+    },
+    "answer": "B",
+    "explanation": "The Dual principle allows swapping operators along with complements in Boolean algebraic expressions."
+  },
+  {
+    "id": 207,
+    "question": "Which phase of SDLC involves assessing whether the proposed software/system is feasible in terms of resources and budget?",
+    "options": {
+      "A": "Design Phase",
+      "B": "Analysis Phase",
+      "C": "Feasibility Study Phase",
+      "D": "Coding Phase"
+    },
+    "answer": "C",
+    "explanation": "The Feasibility Study Phase evaluates technical, operational, and financial viability before project kickoff."
+  },
+  {
+    "id": 208,
+    "question": "Which phase of SDLC focuses on understanding user expectations and identifying software requirements?",
+    "options": {
+      "A": "Maintenance/Support Phase",
+      "B": "Deployment/Implementation Phase",
+      "C": "Requirement Engineering Phase",
+      "D": "Testing/Verification Phase"
+    },
+    "answer": "C",
+    "explanation": "Requirement Engineering gathers, analyzes, and defines customer requirements and specifications."
+  },
+  {
+    "id": 209,
+    "question": "Which Agile model phase involves evaluating the software to identify and fix defects?",
+    "options": {
+      "A": "Design",
+      "B": "Testing",
+      "C": "Deployment",
+      "D": "Requirements Gathering"
+    },
+    "answer": "B",
+    "explanation": "The Testing phase evaluates software behavior, uncovering bugs and confirming feature compliance."
+  },
+  {
+    "id": 210,
+    "question": "Which software development model is characterized by iterative development and frequent updates throughout the project's lifecycle?",
+    "options": {
+      "A": "Waterfall Model",
+      "B": "Agile Model",
+      "C": "Feasibility Model",
+      "D": "Design Model"
+    },
+    "answer": "B",
+    "explanation": "Agile software development focuses on iterative cycles, continuous improvements, and rapid updates."
+  },
+  {
+    "id": 211,
+    "question": "Which type of topology is known for its high redundancy and reliability?",
+    "options": {
+      "A": "Bus Topology",
+      "B": "Star Topology",
+      "C": "Mesh Topology",
+      "D": "Ring Topology"
+    },
+    "answer": "C",
+    "explanation": "Mesh topology interconnects nodes directly with multiple redundant links, offering maximum reliability."
+  },
+  {
+    "id": 212,
+    "question": "What is the main disadvantage of Ring Topology?",
+    "options": {
+      "A": "Limited bandwidth",
+      "B": "High cost",
+      "C": "Complex installation",
+      "D": "Prone to failure"
+    },
+    "answer": "D",
+    "explanation": "In a single ring topology, a single cable or node breakdown disrupts the whole network, making it vulnerable to single-point failures."
+  },
+  {
+    "id": 213,
+    "question": "What type of topology combines elements from multiple topologies to create a more efficient network?",
+    "options": {
+      "A": "Star Topology",
+      "B": "Bus Topology",
+      "C": "Mesh Topology",
+      "D": "Hybrid Topology"
+    },
+    "answer": "D",
+    "explanation": "Hybrid topology integrates two or more distinct network topologies (e.g., Star-Bus) into a single architecture."
+  },
+  {
+    "id": 214,
+    "question": "What type of scalability involves adding more identical virtual machines or instances in cloud computing?",
+    "options": {
+      "A": "Horizontal Scalability",
+      "B": "Vertical Scalability",
+      "C": "Linear Scalability",
+      "D": "Elastic Scalability"
+    },
+    "answer": "A",
+    "explanation": "Horizontal scalability (scaling out) adds more machines/nodes to pool processing load across resources."
+  },
+  {
+    "id": 215,
+    "question": "Which of the following is NOT a common type of malware?",
+    "options": {
+      "A": "Viruses",
+      "B": "Worms",
+      "C": "Spyware",
+      "D": "Firewall"
+    },
+    "answer": "D",
+    "explanation": "A firewall is a network security system that filters traffic, whereas viruses, worms, and spyware are types of malicious code."
+  },
+  {
+    "id": 216,
+    "question": "What is the main advantage of asymmetric encryption over symmetric encryption?",
+    "options": {
+      "A": "Faster encryption and decryption",
+      "B": "Simplified key distribution",
+      "C": "Non-repudiation",
+      "D": "Lower computational complexity"
+    },
+    "answer": "B",
+    "explanation": "Asymmetric encryption solves key distribution challenges by using public keys for encryption without needing secret key transmission beforehand."
+  },
+  {
+    "id": 217,
+    "question": "What type of attack involves cybercriminals impersonating trusted entities to deceive users into revealing sensitive information?",
+    "options": {
+      "A": "Malware attack",
+      "B": "Denial of Service attack",
+      "C": "Phishing attack",
+      "D": "Insider threat"
+    },
+    "answer": "C",
+    "explanation": "Phishing involves sending deceptive communications that impersonate legitimate organizations to steal credentials or data."
+  },
+  {
+    "id": 218,
+    "question": "What type of encryption uses a single, secret key for both encryption and decryption?",
+    "options": {
+      "A": "Asymmetric encryption",
+      "B": "Public-key encryption",
+      "C": "Symmetric encryption",
+      "D": "Triple DES encryption"
+    },
+    "answer": "C",
+    "explanation": "Symmetric key cryptography uses the exact same shared secret key for both encoding and decoding data."
+  },
+  {
+    "id": 219,
+    "question": "What does 2FA (Two-Factor Authentication) require for user access?",
+    "options": {
+      "A": "Two different passwords",
+      "B": "Two different encryption keys",
+      "C": "Two different authentication methods",
+      "D": "Two different user accounts methods"
+    },
+    "answer": "C",
+    "explanation": "2FA requires user verification using two distinct authentication factors (e.g., password + OTP)."
+  },
+  {
+    "id": 220,
+    "question": "What is the primary purpose of a firewall in cybersecurity?",
+    "options": {
+      "A": "Encrypting data",
+      "B": "Monitoring network traffic",
+      "C": "Blocking malicious traffic",
+      "D": "Generating strong passwords"
+    },
+    "answer": "C",
+    "explanation": "Firewalls inspect incoming and outgoing traffic to block unauthorized or malicious traffic based on security rules."
+  }
+],
+  
+
+
+"Chapter 2: COMPUTATIONAL THINKING AND ALGORITHMS": [
+  {
+    "id": 1,
+    "question": "A complexity of algorithm depends upon ________",
+    "options": {
+      "A": "Time Only",
+      "B": "Space Only",
+      "C": "Both Time and Space",
+      "D": "None of above"
+    },
+    "answer": "C",
+    "explanation": "Algorithm complexity is evaluated based on time complexity (how fast it runs) and space complexity (how much memory it requires)[cite: 2]."
+  },
+  {
+    "id": 2,
+    "question": "An algorithm: can be represented through ________",
+    "options": {
+      "A": "Flow charts",
+      "B": "Pseudo-codes",
+      "C": "Instructions in common language",
+      "D": "All of the mentioned above"
+    },
+    "answer": "D",
+    "explanation": "Algorithms can be visually represented using flowcharts, structurally written using pseudo-code, or expressed in natural/common human language[cite: 2]."
+  },
+  {
+    "id": 3,
+    "question": "There are two algorithms suppose A takes 1.41 milliseconds while B takes 0.9 milliseconds, which one of them is better considering all other things the same?",
+    "options": {
+      "A": "A is better than B",
+      "B": "B is better than A",
+      "C": "Both are equally good",
+      "D": "None of the mentioned"
+    },
+    "answer": "B",
+    "explanation": "An algorithm that completes the same task in less time (0.9 ms < 1.41 ms) is more time-efficient and superior[cite: 2]."
+  },
+  {
+    "id": 4,
+    "question": "Considering an array has 10 elements and the searching element is at array index 6. A starting element is present at index zero. How many comparisons are required to search and element using linear search?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "C",
+    "explanation": "Linear search checks elements sequentially starting from index 0 up to index 6 (indices 0, 1, 2, 3, 4, 5, 6), requiring 7 comparisons[cite: 2]."
+  },
+  {
+    "id": 5,
+    "question": "In computer science, the computational artifacts could include ________",
+    "options": {
+      "A": "Programs",
+      "B": "Simulations",
+      "C": "Videos",
+      "D": "Programs, Simulations and videos"
+    },
+    "answer": "D",
+    "explanation": "A computational artifact is any digital product created using a computer, including source code/programs, digital simulations, and audio/video media[cite: 2]."
+  },
+  {
+    "id": 6,
+    "question": "In the planning phase of computational artifact development following is included in",
+    "options": {
+      "A": "Logic",
+      "B": "Data Structures",
+      "C": "Control Structures",
+      "D": "Logic, Data and Control Structures"
+    },
+    "answer": "D",
+    "explanation": "During planning, developers define the underlying logic, data structures, and control flow structures needed for the artifact[cite: 2]."
+  },
+  {
+    "id": 7,
+    "question": "trace method is used to ________",
+    "options": {
+      "A": "Take input",
+      "B": "Hand simulate the execution algorithm.",
+      "C": "Take a print",
+      "D": "Align margins"
+    },
+    "answer": "B",
+    "explanation": "Tracing involves manually walking through an algorithm step-by-step ('hand simulation') to test logic and verify execution[cite: 2]."
+  },
+  {
+    "id": 8,
+    "question": "Trace Tables are used to ________",
+    "options": {
+      "A": "dry run algorithm",
+      "B": "test if algorithm is giving expected output",
+      "C": "show the variables change",
+      "D": "a, b and c"
+    },
+    "answer": "D",
+    "explanation": "A trace table is used to perform a dry run on an algorithm, track variable updates during execution, and verify the final output[cite: 2]."
+  },
+  {
+    "id": 9,
+    "question": "Algorithms are evaluated using ________",
+    "options": {
+      "A": "Correctness",
+      "B": "Efficiency",
+      "C": "a and b",
+      "D": "None of above"
+    },
+    "answer": "C",
+    "explanation": "Algorithms are primarily evaluated on correctness (producing accurate results) and efficiency (optimal time and memory usage)[cite: 1]."
+  }
+],
+
+
+
+
+
+
+
+
+      "Chapter 3: PROGRAMMING FUNDAMENTALS": [
+        {
+          "id": 101,
+          "question": "Computer Programs are categorized into _______.",
+          "options": {
+            "A": "Interactive Program and Batch Program",
+            "B": "Interactive Program and Badge Program",
+            "C": "Inactive Program and Batch Program",
+            "D": "Inactive Program and Badge Program"
+          },
+          "answer": "A",
+          "explanation": "Programs are classified based on execution mode into interactive (user-driven) and batch (automated sequential processing)."
+        },
+        {
+          "id": 102,
+          "question": "Python was first introduced in ______.",
+          "options": {
+            "A": "1990",
+            "B": "1994",
+            "C": "1992",
+            "D": "2022"
+          },
+          "answer": "A",
+          "explanation": "Guido van Rossum developed Python in the late 1980s and first released it in late 1989/1990."
+        },
+        {
+          "id": 103,
+          "question": "Operator != is used for ______.",
+          "options": {
+            "A": "Equal",
+            "B": "Logical AND",
+            "C": "Not equal",
+            "D": "Logical OR"
+          },
+          "answer": "C",
+          "explanation": "The != symbol is a relational operator that checks if two values are not equal."
+        },
+        {
+          "id": 104,
+          "question": "We can design 2D geometrical shapes in Python, using ______.",
+          "options": {
+            "A": "Operators",
+            "B": "Iterations",
+            "C": "Variables",
+            "D": "Turtle Graphics"
+          },
+          "answer": "D",
+          "explanation": "Turtle graphics is a built-in Python feature used for drawing 2D shapes and graphics dynamically."
+        },
+        {
+          "id": 105,
+          "question": "What will the following program do?\nfor i in range(10,0,-1):\n    print('iteration no-',i)",
+          "options": {
+            "A": "It will give error",
+            "B": "It will run 9 times",
+            "C": "It will run 10 times",
+            "D": "It will run 11 times"
+          },
+          "answer": "C",
+          "explanation": "The loop starts at 10 and decrements by 1 down to 1 (stop at 0), executing exactly 10 iterations (10, 9, 8, 7, 6, 5, 4, 3, 2, 1)."
+        },
+        {
+          "id": 106,
+          "question": "The interactive computer program accept some input which is from a user program ______.",
+          "options": {
+            "A": "Sub program",
+            "B": "Web browser",
+            "C": "Print job",
+            "D": "Page break"
+          },
+          "answer": "A",
+          "explanation": "Interactive programs receive inputs directly through system sub-programs or input routines."
+        },
+        {
+          "id": 107,
+          "question": "______ provide basic variable types as str, integer, float, etc.",
+          "options": {
+            "A": "Print job",
+            "B": "Page break",
+            "C": "Python",
+            "D": "Procedure"
+          },
+          "answer": "C",
+          "explanation": "Python provides built-in primitive data types like str, int, and float for variable declarations."
+        },
+        {
+          "id": 108,
+          "question": "The input() function treats the entered data as a set of ______.",
+          "options": {
+            "A": "Digits",
+            "B": "Characters",
+            "C": "Symbols",
+            "D": "Arithmetic operators"
+          },
+          "answer": "B",
+          "explanation": "In Python, the input() function reads user input as a string (a sequence of characters)."
+        },
+        {
+          "id": 109,
+          "question": "Python provide the option of Modulo operator represented as ______.",
+          "options": {
+            "A": "=",
+            "B": "==",
+            "C": "!",
+            "D": "%"
+          },
+          "answer": "D",
+          "explanation": "The percent sign (%) is the modulo operator in Python, returning the remainder of a division."
+        },
+        {
+          "id": 110,
+          "question": "** is used to represent ______.",
+          "options": {
+            "A": "Division",
+            "B": "Floor division",
+            "C": "Multiplication",
+            "D": "Exponentiation"
+          },
+          "answer": "D",
+          "explanation": "The ** operator in Python computes exponents (e.g., 2 ** 3 = 8)."
+        },
+        {
+          "id": 111,
+          "question": "If the program is unable to execute the next instruction, the program will reach the state of ______.",
+          "options": {
+            "A": "Hang",
+            "B": "Reboot",
+            "C": "Shutdown",
+            "D": "Sleep"
+          },
+          "answer": "A",
+          "explanation": "When an execution flow freezes or stops responding to instructions, it enters a hung state."
+        },
+        {
+          "id": 112,
+          "question": "We apply comparison with the help of ______ statement.",
+          "options": {
+            "A": "For",
+            "B": "While",
+            "C": "If",
+            "D": "But"
+          },
+          "answer": "C",
+          "explanation": "Conditional 'if' statements evaluate expressions to make comparison-based branch decisions."
+        },
+        {
+          "id": 113,
+          "question": "In online IDEs, we can write and run our code without ______ in our computer.",
+          "options": {
+            "A": "Installing",
+            "B": "Creating",
+            "C": "Performing",
+            "D": "Detecting"
+          },
+          "answer": "A",
+          "explanation": "Cloud-based or online IDEs run execution environments directly in the browser without local software installation."
+        },
+        {
+          "id": 114,
+          "question": "IDE stands for ______.",
+          "options": {
+            "A": "Internet Development Environment",
+            "B": "Illegal Development Environment",
+            "C": "Integrated Development Environment",
+            "D": "Installer Development Environment"
+          },
+          "answer": "C",
+          "explanation": "IDE stands for Integrated Development Environment."
+        },
+        {
+          "id": 115,
+          "question": "Turtle graphics help us to design basic drawing and ______.",
+          "options": {
+            "A": "1D shapes",
+            "B": "2D shapes",
+            "C": "3D shapes",
+            "D": "4D shapes"
+          },
+          "answer": "B",
+          "explanation": "Python's Turtle library is built for rendering 2-dimensional geometric vector drawings."
+        },
+        {
+          "id": 116,
+          "question": "REPL means ______.",
+          "options": {
+            "A": "Read-Enter-Print-Loop",
+            "B": "Read-Exit-Print-Loop",
+            "C": "Read-Eval-Print-Loop",
+            "D": "Read-Evolve-Print-Loop"
+          },
+          "answer": "C",
+          "explanation": "REPL stands for Read-Eval-Print Loop, an interactive shell programming environment."
+        },
+        {
+          "id": 117,
+          "question": "To draw a triangle, we need to play with ______.",
+          "options": {
+            "A": "Angles",
+            "B": "Vertices",
+            "C": "Lines",
+            "D": "Shapes"
+          },
+          "answer": "A",
+          "explanation": "In Turtle graphics, drawing regular polygons like triangles relies on calculating turning angles (e.g., 120 degrees)."
+        },
+        {
+          "id": 118,
+          "question": "Bug is an unanticipated error which is generally ______ in nature.",
+          "options": {
+            "A": "Analog",
+            "B": "Digital",
+            "C": "Logical",
+            "D": "Legal"
+          },
+          "answer": "C",
+          "explanation": "Software bugs are usually logical flaws in algorithm construction rather than hardware failures."
+        }
+      ],
+
+
+      "Chapter 4: DATA SCIENCE AND MACHINE LEARNING": [
+  {
+    "id": 1,
+    "question": "Supervised learning is one of the main category of ________",
+    "options": {
+      "A": "Statistical modeling",
+      "B": "Data waggling",
+      "C": "Data collection",
+      "D": "Evaluation modeling"
+    },
+    "answer": "A",
+    "explanation": "Supervised learning is a primary category of statistical modeling and machine learning where models learn patterns from labeled data[cite: 3]."
+  },
+  {
+    "id": 2,
+    "question": "For accurate data collection, an existing data from ________ is acquired.",
+    "options": {
+      "A": "Sampling department",
+      "B": "Modeling techniques",
+      "C": "Meteorological department",
+      "D": "Educational department"
+    },
+    "answer": "C",
+    "explanation": "Official domain-specific organizations like the Meteorological department provide reliable, real-world historical data for accurate analysis and modeling[cite: 3]."
+  },
+  {
+    "id": 3,
+    "question": "Natural disaster prediction helps the people to take preventive measures against ________",
+    "options": {
+      "A": "Pandemic",
+      "B": "Cyclones",
+      "C": "Data analysis",
+      "D": "Temperature"
+    },
+    "answer": "B",
+    "explanation": "Natural disaster prediction algorithms analyze meteorological data to forecast severe weather events like cyclones, allowing early warnings and evacuations[cite: 3]."
+  },
+  {
+    "id": 4,
+    "question": "A linear regression model is a mathematical equation that allows us to predict a response for given ________.",
+    "options": {
+      "A": "Predictor value",
+      "B": "Variable",
+      "C": "Intercepts",
+      "D": "Model"
+    },
+    "answer": "A",
+    "explanation": "In linear regression (y = mx + c), input predictor values (x) are used in the linear equation to calculate and predict the output response (y)[cite: 3]."
+  },
+  {
+    "id": 5,
+    "question": "A point where graph line meet the y-axis is called ________.",
+    "options": {
+      "A": "Y-axis",
+      "B": "Y-intercept",
+      "C": "Y-coordinates",
+      "D": "Y-dimensions"
+    },
+    "answer": "B",
+    "explanation": "The y-intercept is the specific coordinate point where a graphed line or curve intersects the vertical y-axis (where x = 0)[cite: 3]."
+  },
+  {
+    "id": 6,
+    "question": "Clustering algorithms are examples of ________.",
+    "options": {
+      "A": "Classical learning",
+      "B": "Professional learning",
+      "C": "Unsupervised learning",
+      "D": "Cognitive learning"
+    },
+    "answer": "C",
+    "explanation": "Clustering techniques group unlabeled data points based on inherent similarities, making them a core example of unsupervised machine learning[cite: 3]."
+  },
+  {
+    "id": 7,
+    "question": "We can create our own database by generating some random number by using ________.",
+    "options": {
+      "A": "Python code",
+      "B": "Data code",
+      "C": "System code",
+      "D": "Pseudo code"
+    },
+    "answer": "A",
+    "explanation": "Python code using libraries like NumPy or Random allows developers to programmatically generate synthetic numerical datasets[cite: 3]."
+  },
+  {
+    "id": 8,
+    "question": "During summer people of hot regions consume more cold items. This information is called ________",
+    "options": {
+      "A": "Parameter",
+      "B": "Population",
+      "C": "Statistics",
+      "D": "Random sample"
+    },
+    "answer": "C",
+    "explanation": "Summarized insights, trends, or conclusions derived from analyzing sample data across a region represent statistics[cite: 3]."
+  },
+  {
+    "id": 9,
+    "question": "If there are some flaws in data collection method, after analyzing such data the result would be more ________",
+    "options": {
+      "A": "Accurate",
+      "B": "Huge",
+      "C": "Erroneous",
+      "D": "No result can be drawn"
+    },
+    "answer": "C",
+    "explanation": "Data collection flaws produce biased or noisy data, leading directly to inaccurate and erroneous analytical findings[cite: 3]."
+  },
+  {
+    "id": 10,
+    "question": "Experimental design is a tool used to ________ the result effectively.",
+    "options": {
+      "A": "Add",
+      "B": "Evaluate",
+      "C": "Organize",
+      "D": "Test"
+    },
+    "answer": "B",
+    "explanation": "Experimental design provides a structured framework to systematically analyze variables, control conditions, and evaluate experimental results[cite: 3]."
+  }
+],
+
+
+      "Chapter 5: APPLICATION OF COMPUTER SCIENCE": [
+
+  {
+    "id": 1,
+    "question": "Fluid flow sensor is a type of:",
+    "options": {
+      "A": "Environmental sensor",
+      "B": "Industrial sensor",
+      "C": "Motion detection sensor",
+      "D": "Climate control sensor"
+    },
+    "answer": "B",
+    "explanation": "Fluid flow sensors are classified as industrial sensors used to monitor liquid and gas flow rates in manufacturing and processing plants[cite: 4]."
+  },
+  {
+    "id": 2,
+    "question": "The cloud model that provides services to multiple organizations is known as:",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "Community cloud",
+      "D": "Hybrid cloud"
+    },
+    "answer": "C",
+    "explanation": "A community cloud shares infrastructure and services across multiple organizations that have common computing, operational, or security goals[cite: 4]."
+  },
+  {
+    "id": 3,
+    "question": "The cloud model that provides best security of data is:",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "Community cloud",
+      "D": "Hybrid cloud"
+    },
+    "answer": "B",
+    "explanation": "A private cloud offers the highest level of security and data privacy because its infrastructure is dedicated solely to a single organization[cite: 4]."
+  },
+  {
+    "id": 4,
+    "question": "Exchange of information between IoT devices and end users is provided by:",
+    "options": {
+      "A": "Cloud computing",
+      "B": "Big data analytics",
+      "C": "Embedded systems",
+      "D": "Communication protocols"
+    },
+    "answer": "D",
+    "explanation": "Communication protocols govern data formatting, routing, and reliable transmission between IoT endpoints and user applications[cite: 4]."
+  },
+  {
+    "id": 5,
+    "question": "The Blockchain network that is most difficult to set up is:",
+    "options": {
+      "A": "Public Blockchain network",
+      "B": "Private Blockchain network",
+      "C": "Permissioned Blockchain network",
+      "D": "Consortium Blockchain network"
+    },
+    "answer": "D",
+    "explanation": "Consortium blockchains require complex cross-organizational governance, identity management, and consensus configuration across multiple administrative entities[cite: 4]."
+  },
+  {
+    "id": 6,
+    "question": "The Blockchain network that is open for everyone to join is called:",
+    "options": {
+      "A": "Public Blockchain network",
+      "B": "Private Blockchain network",
+      "C": "Permissioned Blockchain network",
+      "D": "Consortium Blockchain network"
+    },
+    "answer": "A",
+    "explanation": "Public blockchains are permissionless networks allowing anyone to read data, write transactions, and participate in node consensus[cite: 4]."
+  },
+  {
+    "id": 7,
+    "question": "The sensors used to prevent unauthorized movement in restricted areas are called:",
+    "options": {
+      "A": "Envirnoment sensors",
+      "B": "Industrial sensors",
+      "C": "Motion detection sensors",
+      "D": "Resticted area sensors"
+    },
+    "answer": "C",
+    "explanation": "Motion detection sensors detect physical movement in designated zones to trigger security alarms and restrict unauthorized access[cite: 4]."
+  },
+  {
+    "id": 8,
+    "question": "Sensors used for measuring humidity, air quality, air pressure, tempreture and wind speed are called:",
+    "options": {
+      "A": "Envirnoment sensors",
+      "B": "Industrial sensors",
+      "C": "Motion detection sensors",
+      "D": "Measurement sensors"
+    },
+    "answer": "A",
+    "explanation": "Environmental sensors measure atmospheric and ecological parameters such as temperature, barometric pressure, humidity, and air purity[cite: 4]."
+  },
+  {
+    "id": 9,
+    "question": "Software that is permanently installed in an electronic machine is known as:",
+    "options": {
+      "A": "System software",
+      "B": "Application software",
+      "C": "Machine software",
+      "D": "Firmware"
+    },
+    "answer": "D",
+    "explanation": "Firmware is low-level software programmed directly into hardware read-only memory to control device hardware components[cite: 4]."
+  },
+  {
+    "id": 10,
+    "question": "A digital ledger of trasactions shared and maintained by network users is called:",
+    "options": {
+      "A": "Database",
+      "B": "Accounting software",
+      "C": "Blockchain",
+      "D": "Network ledger"
+    },
+    "answer": "C",
+    "explanation": "Blockchain is a distributed, decentralized digital ledger that records verified transactions across a network of participant nodes[cite: 4]."
+  }
+        
+],
+
+
+      "Chapter 6: IMPACTS OF COMPUTING": [
+
+ {
+    "id": 1,
+    "question": "What is the primary objective of understanding and applying safe and responsible use of information sources?",
+    "options": {
+      "A": "To collect as much information as possible",
+      "B": "To differentiate between reliable and unreliable sources",
+      "C": "To share information with others",
+      "D": "To store information securely"
+    },
+    "answer": "B",
+    "explanation": "Understanding safe and responsible information use primarily helps individuals evaluate credibility and distinguish trustworthy sources from unreliable or deceptive ones[cite: 6]."
+  },
+  {
+    "id": 2,
+    "question": "What is one of the key points of the text regarding information sources?",
+    "options": {
+      "A": "They are always 100% reliable",
+      "B": "They can be either reliable or unreliable",
+      "C": "They are all equally trustworthy",
+      "D": "They are only found in books"
+    },
+    "answer": "B",
+    "explanation": "Information sources vary widely in quality, accuracy, and bias, meaning they can be either reliable or unreliable[cite: 6]."
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is NOT a part of safe and responsible use of information sources?",
+    "options": {
+      "A": "Identifying reliable sources",
+      "B": "Sharing information without verification",
+      "C": "Applying critical thinking skills",
+      "D": "Understanding the sources of information"
+    },
+    "answer": "B",
+    "explanation": "Sharing unverified information promotes misinformation and directly violates the principles of responsible information usage[cite: 6]."
+  },
+  {
+    "id": 4,
+    "question": "What is the importance of identifying reliable information sources?",
+    "options": {
+      "A": "It helps in hoarding information",
+      "B": "It prevents access to information",
+      "C": "It ensures the accuracy and credibility of information",
+      "D": "It promotes the use of unreliable sources"
+    },
+    "answer": "C",
+    "explanation": "Identifying reliable sources guarantees that the data used for learning, research, or decision-making is factual, accurate, and credible[cite: 6]."
+  },
+  {
+    "id": 5,
+    "question": "How can one differentiate between reliable and unreliable information sources?",
+    "options": {
+      "A": "By choosing sources randomly",
+      "B": "By evaluating the credibility and trustworthiness of sources",
+      "C": "By using information sources without any evaluation",
+      "D": "By avoiding all information sources"
+    },
+    "answer": "B",
+    "explanation": "Assessing author expertise, publication domain, evidence, and objectivity helps evaluate whether a source is trustworthy[cite: 6]."
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is a key aspect of responsible information use?",
+    "options": {
+      "A": "Sharing information without verifying its accuracy",
+      "B": "Citing sources when using information",
+      "C": "Keeping all information sources secret",
+      "D": "Ignoring the source of information"
+    },
+    "answer": "B",
+    "explanation": "Properly citing sources respects intellectual property, prevents plagiarism, and demonstrates responsible attribution[cite: 6]."
+  },
+  {
+    "id": 7,
+    "question": "What is meant by \"applying safe and responsible use of information sources\"?",
+    "options": {
+      "A": "Using information for personal gain only",
+      "B": "Using information without questioning its accuracy",
+      "C": "Using information in a way that respects ethical guidelines and respects the reliability of sources",
+      "D": "Using information without any concern for its origin"
+    },
+    "answer": "C",
+    "explanation": "Safe and responsible use means adhering to ethical practices, avoiding copyright infringement, verifying accuracy, and acknowledging original sources[cite: 6]."
+  },
+  {
+    "id": 8,
+    "question": "What role does critical thinking play in safe and responsible use of information sources?",
+    "options": {
+      "A": "It encourages blind acceptance of information",
+      "B": "It promotes skepticism and evaluation of information",
+      "C": "It discourages the use of information",
+      "D": "It has no impact on information use"
+    },
+    "answer": "B",
+    "explanation": "Critical thinking encourages active skepticism, analytical reasoning, and rigorous evaluation before accepting claims as factual[cite: 5]."
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is an example of an assistive technology used to enhance mobility for individuals with disabilities?",
+    "options": {
+      "A": "GPS navigation apps",
+      "B": "Social media platforms",
+      "C": "Video streaming services",
+      "D": "Online shopping websites"
+    },
+    "answer": "A",
+    "explanation": "GPS navigation applications offer audio-guided routing and accessible directions, assisting individuals with visual or physical disabilities in independent mobility[cite: 5]."
+  },
+  {
+    "id": 10,
+    "question": "What type of assistive technology can help individuals with visual impairments access digital content through touch?",
+    "options": {
+      "A": "Screen magnification software",
+      "B": "Hearing aids",
+      "C": "Braille displays",
+      "D": "Speech recognition software"
+    },
+    "answer": "C",
+    "explanation": "Refreshable Braille displays translate dynamic digital text on screen into raised tactile Braille characters that visually impaired users read through touch[cite: 5]."
+  }
+
+],
+
+ "Chapter 07: DIGITAL LITRACY": [
+
+ {
+    "id": 1,
+    "question": "________ is a key requirement for conducting a qualitative interview.",
+    "options": {
+      "A": "Planning and implementation",
+      "B": "Survey",
+      "C": "Talking with interviewee",
+      "D": "Data analysis"
+    },
+    "answer": "A",
+    "explanation": "Proper planning and structured implementation ensure that a qualitative interview focuses on relevant research goals and gathers meaningful qualitative insights[cite: 7]."
+  },
+  {
+    "id": 2,
+    "question": "________ software can be used to create eye-catching Infographics.",
+    "options": {
+      "A": "MS-Word",
+      "B": "MS-PowerPoint",
+      "C": "MS-Excel",
+      "D": "MS-Access"
+    },
+    "answer": "B",
+    "explanation": "MS-PowerPoint offers rich visual design features, vector shapes, smart art, and graphics layout tools ideal for creating engaging infographics[cite: 7]."
+  },
+  {
+    "id": 3,
+    "question": "________ is the process of representing model in terms of time and space.",
+    "options": {
+      "A": "Communication",
+      "B": "Simulation",
+      "C": "Control System",
+      "D": "Radar"
+    },
+    "answer": "B",
+    "explanation": "Simulation models real-world dynamic processes and systems over physical space and time to evaluate behavior under various conditions[cite: 7]."
+  },
+  {
+    "id": 4,
+    "question": "________ refers to basic version of a product, system, or design that is created for the purpose of testing, evaluation, and feedback.",
+    "options": {
+      "A": "Survey",
+      "B": "Questionnaire",
+      "C": "Prototype",
+      "D": "Chart"
+    },
+    "answer": "C",
+    "explanation": "A prototype is an early functional or structural sample of a product designed to test concepts and collect user feedback before full production[cite: 7]."
+  },
+  {
+    "id": 5,
+    "question": "The process of creating synthetic or fake data that resembles real-world data is referred to as ________",
+    "options": {
+      "A": "Presentation",
+      "B": "Simulation",
+      "C": "Primary data",
+      "D": "Secondary data"
+    },
+    "answer": "B",
+    "explanation": "Simulation techniques generate synthetic computer-modeled datasets that mirror real-world operational distributions without relying on direct collection[cite: 7]."
+  },
+  {
+    "id": 6,
+    "question": "________ are graphics and images describing information and data in a visual way.",
+    "options": {
+      "A": "Visual Text",
+      "B": "Worksheets",
+      "C": "Infographics",
+      "D": "Secondary data"
+    },
+    "answer": "C",
+    "explanation": "Infographics combine graphic design elements, charts, and key text summaries to convey complex information visually and quickly[cite: 7]."
+  },
+  {
+    "id": 7,
+    "question": "________ is defined as the process of using various graphical formats to visually represent the relationship between two or more data sets.",
+    "options": {
+      "A": "Primary data",
+      "B": "Secondary data",
+      "C": "Presentation",
+      "D": "Survey"
+    },
+    "answer": "C",
+    "explanation": "Presentations utilize charts, graphs, and visual components to communicate comparative data relationships to an audience effectively[cite: 7]."
+  }
+  
+],
+
+ "Chapter 08: ENTERPRENEURSHIP IN DIGITAL AGE": [
+{
+    "id": 1,
+    "question": "Product is the fundamental outcome of complex process design to meet the need of ________.",
+    "options": {
+      "A": "Consumers",
+      "B": "Industry",
+      "C": "Producers",
+      "D": "Entrepreneur"
+    },
+    "answer": "A",
+    "explanation": "Products are ultimately created and designed to fulfill specific needs, preferences, or problems of consumers[cite: 8]."
+  },
+  {
+    "id": 2,
+    "question": "Developing new products that allow a company to explore new market is called ________.",
+    "options": {
+      "A": "Market expansion",
+      "B": "Revenue generation",
+      "C": "Innovation",
+      "D": "Customer satisfaction"
+    },
+    "answer": "A",
+    "explanation": "Market expansion involves introducing new products or entering new demographic or geographical segments to grow business reach[cite: 8]."
+  },
+  {
+    "id": 3,
+    "question": "Prototypes share the common goal of providing valuable insights to improve the ________.",
+    "options": {
+      "A": "Initial products",
+      "B": "Revenue",
+      "C": "Final products",
+      "D": "Expansion"
+    },
+    "answer": "C",
+    "explanation": "Testing prototypes gathers critical design feedback and usability data to refine and optimize the final commercial product[cite: 8]."
+  },
+  {
+    "id": 4,
+    "question": "In order to test technical aspects and validate the feasibility, ________ is used.",
+    "options": {
+      "A": "Proof of concept prototype",
+      "B": "Working prototype",
+      "C": "Digital prototype",
+      "D": "Paper prototype"
+    },
+    "answer": "A",
+    "explanation": "A Proof of Concept (PoC) prototype is built specifically to demonstrate technical feasibility and verify core functionality before full-scale development[cite: 8]."
+  },
+  {
+    "id": 5,
+    "question": "________ is used for internal testing and refinement.",
+    "options": {
+      "A": "Alpha prototype",
+      "B": "Beta prototype",
+      "C": "Digital prototype",
+      "D": "Functional prototype"
+    },
+    "answer": "A",
+    "explanation": "Alpha prototypes are tested internally by developers and engineers to identify bugs and refine mechanics before external exposure[cite: 8]."
+  },
+  {
+    "id": 6,
+    "question": "Beta testing helps in identifying any remaining issue before the ________.",
+    "options": {
+      "A": "Product's first release",
+      "B": "Product's final release",
+      "C": "Product's official release",
+      "D": "Product's beta release"
+    },
+    "answer": "B",
+    "explanation": "Beta testing involves end users testing the product in real environments to resolve final bugs prior to public or commercial launch[cite: 8]."
+  },
+  {
+    "id": 7,
+    "question": "________ helps to mitigate risk and reduce the likelihood of costly errors.",
+    "options": {
+      "A": "Risk reduction",
+      "B": "Iterative development",
+      "C": "Cost Saving",
+      "D": "Visualization"
+    },
+    "answer": "B",
+    "explanation": "Iterative development continuous refinement cycles catch design defects early, mitigating risk and preventing costly rework downstream[cite: 8]."
+  },
+  {
+    "id": 8,
+    "question": "3D printers can transform digital designs into tangible objects in ________.",
+    "options": {
+      "A": "Physical prototype",
+      "B": "Paper prototype",
+      "C": "Prototype kits",
+      "D": "Beta prototype"
+    },
+    "answer": "A",
+    "explanation": "3D additive manufacturing converts digital 3D models (CAD) into real-world physical prototypes[cite: 8]."
+  },
+  {
+    "id": 9,
+    "question": "Iterative and refinement through prototype are key to creating products that are aligned with ________.",
+    "options": {
+      "A": "Project goals",
+      "B": "User needs",
+      "C": "Records",
+      "D": "Elements"
+    },
+    "answer": "B",
+    "explanation": "Repeated user testing during prototyping ensures the final product effectively meets actual user requirements and expectations[cite: 8]."
+  },
+  {
+    "id": 10,
+    "question": "________ prototype closely resembles with the user interface.",
+    "options": {
+      "A": "Digital prototype",
+      "B": "Working prototype",
+      "C": "Proof-of-Concept prototype",
+      "D": "Intellectual prototype"
+    },
+    "answer": "A",
+    "explanation": "Digital prototypes (mockups and wireframes) simulate the visual design, screen layout, and interactive flow of software user interfaces[cite: 8]."
+  }
+ 
+  
+
+
+
+]
+      
+    }
+  },
+
+ "Second Year": {
+    "Computer Science": {
+      "Chapter 1: COMPUTER SYSTEMS": [
+        
+        
+  
+        
+],
+  
+
+
+"Chapter 2: COMPUTATIONAL THINKING AND ALGORITHMS": [
+  
+  
+],
+
+
+
+
+
+
+
+
+      "Chapter 3: PROGRAMMING FUNDAMENTALS": [
+  
+      ],
+
+
+      "Chapter 4: DATA SCIENCE AND MACHINE LEARNING": [
+  
+        
+],
+
+
+      "Chapter 5: APPLICATION OF COMPUTER SCIENCE": [
+
+  
+        
+],
+
+
+      "Chapter 6: IMPACTS OF COMPUTING": [
+
+ 
+        
+
+],
+
+ "Chapter 07: DIGITAL LITRACY": [
+
+ 
+  
+  
+],
+
+ "Chapter 08: ENTERPRENEURSHIP IN DIGITAL AGE": [
+
+  
+
+]
+
+      
+      
+
+
+
+
+
+
+    }
+  }
+}
